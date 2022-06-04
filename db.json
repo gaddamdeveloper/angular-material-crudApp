@@ -1,0 +1,52 @@
+{
+  "posts": [
+    {
+      "userName": "abhinay",
+      "password": "abhi@123123",
+      "email": "abhi@0322",
+      "firstName": "abhinay",
+      "lastName": "gallipelli",
+      "id": 2
+    },
+    {
+      "userName": "naresh",
+      "password": "naresh@1234",
+      "email": "naresh@gmail.com",
+      "firstName": "nareshreddy",
+      "lastName": "karra123456",
+      "id": 3
+    },
+    {
+      "userName": "akhil",
+      "password": "akhil@123",
+      "email": "akhil@gmail.com",
+      "firstName": "akhil",
+      "lastName": "adepu",
+      "id": 4
+    },
+    {
+      "userName": "sai",
+      "password": "sai123",
+      "email": "sai'gmail.com",
+      "firstName": "saikumar",
+      "lastName": "gaddam",
+      "id": 5
+    },
+    {
+      "userName": "ramana",
+      "password": "ram123",
+      "email": "ram@gmail.com",
+      "firstName": "ramana",
+      "lastName": "yellala",
+      "id": 6
+    },
+    {
+      "userName": "arun",
+      "password": "arun123",
+      "email": "arun@gmail.com",
+      "firstName": "arun",
+      "lastName": "reddy",
+      "id": 8
+    }
+  ]
+}

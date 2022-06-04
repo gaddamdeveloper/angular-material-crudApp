@@ -1,0 +1,28 @@
+<div class="container">
+    <form class="example-form shadow mt-5" [formGroup]="signupForm">
+        <h1 class="text-center">Create or Update</h1>
+        <mat-form-field class="example-full-width">
+            <mat-label>UserName</mat-label>
+            <input matInput placeholder="Enter username" value="" formControlName="userName">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>Password</mat-label>
+            <input matInput placeholder="Enter password" value="" formControlName="password">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>Email</mat-label>
+            <input matInput placeholder="Enter Email" value="" formControlName="email">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>FirstName</mat-label>
+            <input matInput placeholder="Enter firstName" value="" formControlName="firstName">
+        </mat-form-field>
+        <mat-form-field class="example-full-width">
+            <mat-label>LastName</mat-label>
+            <input matInput placeholder="Enter lastName" value="" formControlName="lastName">
+        </mat-form-field>
+        <button mat-raised-button color="primary" (click)="onSubmit()" class="button">Submit</button>
+        <button mat-raised-button color="primary" (click)="onUpdate()" class="button mt-5">Update</button>
+        <button mat-raised-button color="primary" (click)="onSave()" class="button mt-5">save</button>
+    </form>
+</div>
